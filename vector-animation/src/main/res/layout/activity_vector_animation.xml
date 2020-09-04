@@ -26,6 +26,14 @@
         android:tint="?attr/colorAccent"
         android:translationZ="3dp"/>
 
+<!-- 上面的动画和下面的动画的效果是一样的， 只是上面的动画 （方案一iv_puppet1）把涉及到的四个文件分开放的，
+  animated_vector.xml
+vectordrawable.xml
+ path_morph.xml
+rotation.xml
+
+而  方案二iv_puppet2 是吧涉及到的文件都放在了 drawable_animated_vector.xml
+-->
     <ImageView
         android:id="@+id/iv_puppet2"
         android:layout_width="100dp"

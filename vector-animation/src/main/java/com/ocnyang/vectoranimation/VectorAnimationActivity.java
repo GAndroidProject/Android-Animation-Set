@@ -28,6 +28,7 @@ public class VectorAnimationActivity extends AppCompatActivity implements View.O
         }
     }
 
+
     private void initPuppet2() {
         ImageView imageView = (ImageView) findViewById(R.id.iv_puppet2);
         imageView.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.drawable_animated_vector));
